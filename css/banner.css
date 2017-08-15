@@ -1,0 +1,22 @@
+ /*复位样式*/
+body, a, textarea, input, span { font-family:SourceHanSans,Microsoft YaHei,"宋体", Verdana, Geneva, sans-serif;}
+body,html,div, dl, dt, dd, ul, ol, li, p, h1, h2, h3, h4, h5, h6, th, td, hr, blockquote { padding: 0; margin: 0}
+html,body,p{
+    font-size: 20px; 
+
+    max-width: 640px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+	border: 1px solid blue;
+	height: 10rem;
+}
+.banner img{
+	height: 10rem;
+	width: 100%;
+}

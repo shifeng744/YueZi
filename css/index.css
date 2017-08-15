@@ -1,0 +1,130 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input,
+span {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+body,
+html,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote,
+a {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-size: 20px;
+  color: #77787a;
+  max-width: 640px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 0.55rem;
+}
+.main p,
+.main h3 {
+  font-size: 0.55rem;
+  color: #77787a;
+}
+.btn {
+  padding: 0.25rem 0.5rem;
+  background: #ee8fb3;
+  color: #fff;
+  border-top-left-radius: 0.8rem ;
+  border-bottom-right-radius: 0.8rem;
+  margin: 0rem 1rem;
+}
+.page01 {
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid red;
+}
+.page01 a {
+  font-size: 0.575rem;
+}
+.page01 ul {
+  margin: auto;
+  width: 18rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+.page01 ul li {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  float: left;
+  text-align: center;
+}
+.page01 ul li img {
+  width: 2.5rem;
+}
+.page01 ul li p {
+  font-weight: bold;
+}
+.page01 .Recommend {
+  margin: 1rem auto;
+  border: 0.025rem solid #dcdcdc;
+  width: 95%;
+}
+.page01 .Recommend ul {
+  padding-bottom: 0rem;
+}
+.page01 .Recommend ul .list {
+  margin: 0.4rem 0rem;
+  width: 95%;
+  overflow: hidden;
+  font-size: 0.55rem;
+  text-align: left;
+}
+.page01 .Recommend ul .list span {
+  float: right;
+}
+.page01 .Recommend ul .list :before {
+  display: inline-block;
+  content: " ";
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #fff;
+  border-radius: 100%;
+}
+.page01 .Recommend ul :before {
+  display: inline-block;
+  content: " ";
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #64bab1;
+  border-radius: 100%;
+}
+.page02 {
+  width: 18.7rem;
+  overflow: hidden;
+  border: 1px solid blue;
+}
+.page02 img {
+  height: 11.4rem;
+}
+.page02 .swiper-container2 {
+  height: 11.4rem;
+}
